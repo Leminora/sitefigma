@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Galien";
+    src: url("fonts/MiConv.com__Galien-Bold.woff2") format("woff2"),
+         url("fonts/Galien-Bold_1.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Galien";
+    src: url("fonts/MiConv.com__Galien-Regular.woff2") format("woff2"),
+         url("fonts/Galien-Regular_1.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/MiConv.com__Gilroy-Bold.woff2") format("woff2"),
+         url("fonts/Gilroy-Bold.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/MiConv.com__Gilroy-Regular.woff2") format("woff2"),
+         url("fonts/Gilroy-Regular.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+body {
+    font-family: "Gilroy";
+    font-size: 16px;
+    background: #FFFF;
+    color: #1F3F68;
+}
+.header {
+    background: #FFFF;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+
+}
+.header_in {
+    width: 100%;
+    max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.button-nav {
+    padding: 0px 5px;
+
+}
+.main {
+    background: linear-gradient(#fff, 80%, #98C3E8);
+    max-width: 100%;
+}
+.about {
+    margin-left: 160px;
+    margin-top: 40px;
+}
+h1 {
+    font-family: "Galien";
+    color: #1F3F68;
+    font-size: 60px;
+    letter-spacing: 0.04em;
+    max-width: 600px;
+    line-height: 74px;
+}
+.huh {
+    font-family: "Gilroy";
+   
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    max-width: 420px;
+    margin-bottom: 80px;
+}
+.picture {
+    float: right;
+    height: 480px;
+    width: 590px;
+}
+.pr-button {
+    background: #5A98D0;
+    color: white;
+    font-family: "Gilroy";
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+letter-spacing: 0.04em;
+line-height: 26px;
+border-color: transparent;
+padding: 20px 50px;
+user-select: none;
+text-decoration: none;
+margin-left: 160px;
+margin-bottom: 160px;
+    
+}
