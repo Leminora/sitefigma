@@ -1,0 +1,955 @@
+@font-face {
+    font-family: "Galien";
+    src: url("../fonts/MiConv.com__Galien-Bold.woff2") format("woff2"),
+         url("../fonts/Galien-Bold_1.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Galien";
+    src: url("../fonts/MiConv.com__Galien-Regular.woff2") format("woff2"),
+         url("../fonts/Galien-Regular_1.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/MiConv.com__Gilroy-Bold.woff2") format("woff2"),
+         url("../fonts/Gilroy-Bold.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/MiConv.com__Gilroy-Regular.woff2") format("woff2"),
+         url("../fonts/Gilroy-Regular.woff") format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
+
+body {
+    font-family: "Gilroy";
+    font-size: 16px;
+    background: #FFFF;
+    color: #1F3F68;
+}
+.header {
+    background: #FFFF;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+
+}
+a {
+    user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;
+    color: #1F3F68;
+}
+.header_in {
+    width: 100%;
+    max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#main {
+    background: linear-gradient(#fff, 80%, #98C3E8) repeat-x;
+}
+.about {
+    margin-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 160px; 
+}
+h1 {
+    font-family: "Galien";
+    color: #1F3F68;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    max-width: 600px;
+    line-height: 74px;
+}
+.huh {
+    font-family: "Gilroy";
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    max-width: 420px;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+.picture {
+    float: right;
+    height: 480px;
+    width: 590px;
+}
+.pr-button {
+    background: #5A98D0;
+    color: white;
+    font-family: "Gilroy";
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    letter-spacing: 0.04em;
+    line-height: 26px;
+    border-color: transparent;
+    padding: 10px 50px;
+    margin-bottom: 160px;
+}
+.pr-button:hover {
+    background-color: #1F3F68;
+    transition: 0.5s;
+}
+.pr-button:not(:hover) {
+    transition: 0.5s;
+}
+.blueh1 {
+  
+    position:absolute;
+    font-family: "Gilroy";
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    max-width: 300px;
+    line-height: 46px;
+    margin-top: 0;
+}
+.blueh2 {
+    color: #316099;
+    position:absolute;
+    font-family: "Gilroy";
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    line-height: 46px;
+}
+.cool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center, top;
+    align-items: center;
+    position: relative;
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    float: right;
+    margin: 40px;
+    border-radius: 10px;
+}
+.cool1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center, top;
+    align-items: center;
+    position: relative;
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    float: left;
+    margin-top: 300px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.wpicture1 {
+    margin:40px;
+    margin-left: 75px;
+}
+
+.wpicture {
+    margin-bottom: 25px;
+    margin-left: 70px;
+}
+#what-we-doing {
+    width: 940px;
+    height: 1162px;
+    margin:auto;
+    margin-bottom:160px;
+}
+.card{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    
+}
+.cards{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.cardp{
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.learn{
+    
+    float:left;
+    
+    margin:auto;
+}
+.more{
+    text-align: left, center;
+    margin-top: 0px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    font-size: 14px;
+}
+.arrow{
+    margin-left:22px;
+    margin-top: 22px;
+}
+.arrow1{
+    margin-left:22px;
+    margin-top: 15px;
+}
+.cool:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.cool1:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.cool:not(:hover ){
+    transition: 0.5s;
+}
+.cool1:not(:hover) {
+    transition: 0.5s;
+}
+#projects{
+    width: 940px;
+    height: 1118px;
+    margin:auto;
+    margin-bottom:160px;
+}
+.aboutpr{
+    margin-left:300px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.project1{
+    margin-bottom:100px;
+    margin-top: 100px;
+    color: #FFF;
+    border-color: transparent;
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    background-image: url(../img/main/MaskGroup-1.png);
+    background-size:cover; /* <-- scale the image to cover the button */
+    background-position:center center;
+    width:100%;
+    height: 417px;
+}
+.project {
+    float:left;
+    color: #FFF;
+    border-color: transparent;
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    background-image: url(../img/main/MaskGroup-2.png);
+    background-size:cover; /* <-- scale the image to cover the button */
+    background-position:center center;
+    width:422px;
+    height: 417px;
+}
+.project2 {
+    float:right;
+    color: #FFF;
+    border-color: transparent;
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    background-image: url(../img/main/MaskGroup-3.png);
+    background-size:cover; /* <-- scale the image to cover the button */
+    background-position:center center;
+    width:422px;
+    height: 417px;
+}
+.title{
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    margin-bottom: 0;
+}
+.place{
+    font-family: "Gilroy";
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 0;
+}
+.words{
+    margin-right:50px;
+    margin-top: 50px;
+    height: 100%;
+    text-align: right;
+}
+.words2{
+    margin-left:30px;
+    margin-top: 30px;
+    height: 100%;
+    text-align: left;
+}
+.project:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 15px #1F3F68;
+}
+.project1:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 15px #1F3F68;
+}
+.project:not(:hover){
+    transition: 0.5s;
+}
+.project1:not(:hover) {
+    transition: 0.5s;
+}
+.project2:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 15px #1F3F68;
+}
+.project2:not(:hover) {
+    transition: 0.5s;
+}
+.clients {
+    background: #5A98D0;
+border-radius: 200px 0px 0px 0px;
+}
+.clientinfo{
+    margin:auto;
+    width: 940px;
+    
+    
+}
+.whiteh2{
+    position:absolute;
+    font-family: "Gilroy";
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    max-width: 300px;
+    line-height: 46px;
+    margin-top: 0;
+    color: #FFFFFF;
+    margin-top: 90px;
+    
+}
+.aboutprwh{
+    margin-left:330px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    color: #FFFFFF;
+    padding-top:90px;
+}
+.group-btn{
+    margin-top: 100px;
+    margin-bottom: 350px;
+}
+.group-btn button {
+    font-family: "Gilroy";
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    float: left; /* Float the buttons side by side */
+    width: 235px;
+    height: 128px;
+  }
+.btn1{
+    background-color: #5A98D0; 
+    border-bottom: 0.5px solid #FFF;
+    border-right: 0.5px solid #FFF;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+}
+.btn2{
+    background-color: #5A98D0; 
+    border-bottom: 0.5px solid #FFF;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+}
+.btn3{
+    background-color: #5A98D0; 
+    border-bottom: 0px solid transparent;
+    border-right: 0.5px solid #FFF;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+}
+.btn4{
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    background-color: rgba(31, 63, 104, 0.2);
+}
+.group-btn button:hover {
+    background-color:  #1F3F68;
+    transition: 0.5s;
+}
+.group-btn button:not(:hover) {
+    transition: 0.5s;
+}
+footer{
+    height: 869px;
+    margin-right: 5em;
+    background: #316099;
+border-radius: 0px 200px 0px 0px;
+}
+.footer{
+    width: 940px;
+    margin: auto;
+}
+.whiteh23{
+    position:absolute;
+    font-family: "Gilroy";
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    line-height: 46px;
+    margin-top: 0;
+    color: #FFFFFF;
+    margin-top: 90px;  
+}
+#footerb{
+    margin-left:40px;
+
+}
+.huhwh {
+    font-family: "Gilroy";
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    max-width: 480px;
+    margin-bottom: 90px;
+    opacity: 0.6;
+    color:#fff;
+    padding-top: 225px;
+}
+.talk{
+    font-family: "Gilroy";
+    float: right;
+    width: 220px;
+height: 56px;
+background: #5A98D0;
+border-radius: 10px;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border: 0px;
+margin-top:170px;
+}
+.talk:hover {
+    background-color:  #1F3F68;
+    transition: 0.5s;
+}
+.talk:not(:hover) {
+    transition: 0.5s;
+}
+hr{
+border: none; /* Убираем границу */
+    background-color: #FFF; /* Цвет линии */
+    color: #FFF; /* Цвет линии для IE6-7 */
+    height: 1px;
+}
+.whiteh3{
+    font-family: "Gilroy";
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-left: 70px;
+margin-top:90px;
+width:300px;
+margin-right: 0;
+}
+.logo2{
+    position:absolute;
+    margin-right:20px;
+    margin-top:5px;
+}
+.footerbot{
+    margin-left:40px;
+}
+.info{
+    width: 270px;
+    font-family:"Gilroy";
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+
+}
+.thing{
+    font-family: 'Gilroy';
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+padding-top: 0;
+padding-right: 20px;
+text-align: left;
+}
+td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.tableinfo{
+    position:absolute;
+}
+.ss{
+    margin-left: 400px;
+    margin-top:-70px;
+    position:absolute;
+}
+.ab{
+    font-family: "Gilroy";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.sec{
+    width: 250px;
+    
+padding-bottom: 5px;
+}
+.ss1{
+    margin-left: 650px;
+    margin-top:-90px;
+    position: relative;
+}
+.where{
+    font-family:"Gilroy";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    padding-bottom: 0.5em;
+}
+.where:hover {
+    text-decoration-color: #fff;
+}
+.credits{
+    font-family: "Gilroy";
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+margin-top:65px;
+}
+.logo{
+    margin-top:auto;
+}
+#nav-icon1 {
+    width: 26px;
+    height: 18px;
+    position: relative;
+    margin-right: 20px;
+    margin-top:auto;
+    margin-bottom:auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 3;
+}
+#nav-icon1 span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #337AB7;
+    border-radius: 5px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+#nav-icon1 span:nth-child(1) {
+    top: 0px;
+}
+#nav-icon1 span:nth-child(2) {
+    top: 9px;
+}
+#nav-icon1 span:nth-child(3) {
+    top: 18px;
+}
+#nav-icon1.open span:nth-child(1) {
+    top: 9px;
+    transform: rotate(135deg);
+    background: #FFF;
+  
+}
+#nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    background: #FFF;
+
+}
+#nav-icon1.open span:nth-child(3) {
+    top: 9px;
+    transform: rotate(-135deg);
+    background: #FFF;
+ 
+
+    
+}
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+    background: #5A98D0;
+    border-radius: 50px 0px 0px 0px;
+	transform: translateX(200%);
+	transition: transform 0.5s; 
+    z-index: 2;
+}
+.menu.active {
+	transform: translateX(75%);
+}
+.menu li {
+	list-style-type: none;
+}
+.navig{
+    width:250px;
+    margin-top:90px;
+}
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background: transparent;
+    font-family: "Gilroy";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: relative;
+    height: 30px;
+    padding-bottom:0px;
+}
+
+.panel {
+    margin-top:20px;
+    padding: 0 18px;
+    display: none;
+    
+    overflow: hidden;
+}
+.point{
+    margin:20px;
+    margin-left: 0;
+}
+.arrow-4 {
+    position: relative;
+    cursor: pointer;
+    margin:20px;
+    width: 100%;
+    height: 15px;
+    left: 100px;
+    top:-45px;
+    margin-bottom:10px;
+}
+ .arrow-4-left {
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    left: 0;
+    width: 12px;
+    height: 4px;
+    display: block;
+    transform: rotate(35deg);
+    float: right;
+    border-radius: 1px;
+}
+.arrow-4-left:after {
+    content: "";
+    background-color: #FFF;
+    width: 12px;
+    height: 4px;
+    display: block;
+    float: right;
+    border-radius: 6px 10px 10px 6px;
+    transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+    z-index: -1;
+}
+ 
+.arrow-4-right {
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    left: 7px;
+    width: 12px;
+    height: 4px;
+    display: block;
+    transform: rotate(-35deg);
+    float: right;
+    border-radius: 2px;
+}
+.arrow-4-right:after {
+    content: "";
+    background-color: #FFF;
+    width: 12px;
+    height: 4px;
+    display: block;
+    float: right;
+    border-radius: 10px 6px 6px 10px;
+    transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+    z-index: -1;
+}
+.open .arrow-4-left:after {
+    transform-origin: center center;
+    transform: rotate(-70deg);
+}
+.open .arrow-4-right:after {
+    transform-origin: center center;
+    transform: rotate(70deg);
+}
+.main2{
+    background-image: url(../img/contact/MaskGroup-4.svg);
+    height:300px;
+    background-size:cover;
+   
+}
+.titlec{
+    padding-top:100px;
+    position:relative;
+    font-family: "Gilroy";
+font-size: 44px;
+line-height: 74px;
+margin-bottom:0;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.wordsc{
+    font-family: "Gilroy";
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.6);
+}
+.wordsabout{
+    width: 780px;
+    text-align:center;
+    margin:auto;
+}
+.conts{
+    width: 940px;
+    margin:auto;
+}
+.infocorn{
+    margin-top: 100px;
+    width: 301px;
+    margin-right:0px;
+    position:absolute;
+}
+.onfo1{
+    margin-top:20px;
+}
+.infosec{
+    font-family: "Gilroy";
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+text-align: left;
+padding:20px;
+padding-left:0;
+}
+.info2{
+    font-family: "Gilroy";
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.6;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.icon{
+    padding-right:10px;
+}
+.blank{
+    margin-top: 50px;
+    margin-left:400px;
+    width: 540px;
+height: 800px;
+background: #FFFFFF;
+box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+position:relative;
+margin-bottom: 50px;
+}
+.onfo2{
+    padding:50px;
+    padding-top:40px;
+    padding-bottom:30px;
+}
+.test{
+    margin-left:50px;
+    width:428px;
+}
+#text1{
+    width: 398px;
+height: 72px;
+
+opacity: 0.4;
+
+border: 1px solid #356EAD;
+border-radius: 10px;
+font-family: "Gilroy";
+}
+#text2{
+    width: 398px;
+height: 72px;
+opacity: 0.4;
+border: 1px solid #356EAD;
+border-radius: 10px;
+}
+#text3{
+    max-width: 398px;
+max-height: 144px;
+min-width: 398px;
+min-height: 144px;
+width: 398px;
+height: 144px;
+opacity: 0.4;
+border: 1px solid #356EAD;
+border-radius: 10px;
+
+}
+::placeholder{
+    font-family: "Gilroy";
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+
+}
+
+.labels{
+
+    font-family: 'Gilroy';
+font-size: 16px;
+line-height: 30px;
+
+letter-spacing: 0.04em;
+
+color: #1F3F68;
+
+opacity: 0.8;
+
+}
+.part{
+    margin-bottom:40px;
+}
+input[type="text"]
+{
+    color: black;
+    font-family: 'Gilroy';
+    font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+padding-left:30px;
+
+}
+textarea[type="message"]
+{
+    color: black;
+    font-family: 'Gilroy';
+    font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+padding-left:30px;
+
+}
+.sub{
+    width: 428px;
+height: 72px;
+background: #5A98D0;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+border: transparent;
+color: #FFF;
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+
+}
+.sub:hover {
+    background-color:  #1F3F68;
+    transition: 0.5s;
+}
+.sub:not(:hover) {
+    transition: 0.5s;
+}
+#map{
+    margin-top:20px;
+    width: 940px;
+    height: 480px;
+    margin:auto;
+    margin-bottom:80px;
+}
+
+    
+
+
+
+    
+
