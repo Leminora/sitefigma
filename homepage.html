@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <!-- шапка сайта -->
+    <header class="header">
+        <div class="header_in"> 
+            <a href="homepage.html" class="logo">
+                <img src="img/main/logo.svg" alt="Лого сайта">
+            </a>
+            <!-- бургер меню -->
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="menu">
+                <nav class="navig">
+                    <!-- аккордион меню -->
+                    <button class="accordion">About Us
+                        <div class="arrow-4">
+                            <span class="arrow-4-left"></span>
+                            <span class="arrow-4-right"></span>
+                        </div>
+                    </button>
+                    <div class="panel">
+                            <li class="point"><a href="homepage.html#main" class="where">About</a></li>
+                            <li class="point"><a href="homepage.html#what-we-doing" class="where">What We Do</a></li>
+                            <li class="point"><a href="homepage.html#projects" class="where">Project</a></li>
+                            <li class="point"><a href="ContactUs.html" class="where">How It Work With Us</a></li>
+
+                    </div>
+                    
+                    <button class="accordion">Follow Us
+                        <div class="arrow-4">
+                            <span class="arrow-4-left"></span>
+                            <span class="arrow-4-right"></span>
+                        </div>
+                    </button>
+                    <div class="panel">
+
+                            <li class="point"><a href="" class="where">Youtube</a></li>
+                            <li class="point"><a href="" class="where">Instagram</a></li>
+                            <li class="point"><a href="" class="where">Facebook</a></li>
+                            <li class="point"><a href="" class="where">LinkedIn</a></li>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- омновная часть -->
+    <div id="main">
+        <div class="about"> <img src="img/main/illustration.svg" class="picture">
+            <h1>New Automation
+            Tool for Your Home</h1>
+            <p class="huh">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</p>
+            <button onclick="document.location='#projects'" class="pr-button" >See Our Project</button>
+        </div>   
+    </div>
+    <!-- секция о том, что мы делаем -->
+    <section id="what-we-doing">
+        <h2 class="blueh2">What we do to help our client grow in digital area,</h2>
+        <article class="cool">
+            <a href=" ">
+            <img src= "img/main/3.svg" class="wpicture">
+            <div class="cards">
+            <h3 class="card">Bring Technology To Your 
+                Comfrotable Home</h3>
+                <p class="cardp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="more">Learn more <img src= "img/main/arrow.svg" class="arrow1"></p>
+            </div> 
+        </a>  
+            </article>
+        <article class="cool1">
+            <a href=" ">
+            <img src= "img/main/1.svg" class="wpicture1">
+            <div class="cards">
+            <h3 class="card">Make Your business To Be Better Famous In Internet</h3>
+                <p class="cardp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="more">Learn more <img src= "img/main/arrow.svg" class="arrow"></p>
+            </div>
+        </a>
+        </article>
+        <article class="cool">
+            <a href=" ">
+            <img src="img/main/2 20.svg" class="wpicture1">
+            <div class="cards">
+            <h3 class="card">Build Your Digital Product
+                That Suitable For Your Need</h3>
+                <p class="cardp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="more">Learn more <img src= "img/main/arrow.svg" class="arrow"></p>
+            </div>
+        </a>
+        </article>
+    </section>
+    <!-- секция с проектами -->
+    <section id="projects">
+        <h2 class="blueh1">Our Finished Project</h2>
+        <p class="aboutpr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <button onclick="document.location=''" class="project1">
+            <div class="words">
+            <p class="title">Smart Home Installation</p>
+            <p class="place">In Muarakana Housing Estate</p>
+             </div>
+            </button>
+        
+        <button onclick="document.location=''" class="project">
+            <div class="words2">
+                <p class="title">Sparklite App</p>
+                <p class="place">Marketplace</p>
+            </div>
+        </button>
+        <button onclick="document.location=''" class="project2">
+            <div class="words2">
+                <p class="title">Car-Rapetition App</p>
+                <p class="place">Board</p>
+            </div>
+        </button>
+        
+    </section>
+    <!-- секция с клиентами -->
+    <section class="clients">
+        <div class="clientinfo">   
+        <h2 class="whiteh2">Our Beloved Client</h2>
+        <p class="aboutprwh">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="group-btn">
+            <button onclick="document.location=''" class="btn1">LOGO CLIENT 1</button>
+            <button onclick="document.location=''" class="btn1">LOGO CLIENT 2</button>
+            <button onclick="document.location=''" class="btn1">LOGO CLIENT 3</button>
+            <button onclick="document.location=''" class="btn2">LOGO CLIENT 4</button>
+        </br>
+            <button onclick="document.location=''" class="btn3">LOGO CLIENT 5</button>
+            <button onclick="document.location=''" class="btn3">LOGO CLIENT 6</button>
+            <button onclick="document.location=''" class="btn3">LOGO CLIENT 7</button>
+            <button onclick="document.location=''" class="btn4">More Client</button>
+        </div>
+
+    </div>
+    <!-- подвал сайта -->
+    <footer>
+        <div class="footer">
+        <div id="footerb">
+            <h2 class="whiteh23">Interested to work with our team?</h2>
+            <button onclick="document.location='ContactUs.html'" class="talk">Let’s Talk</button>
+            <p class="huhwh">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <hr>
+        <div class="footerbot">
+            
+            <img src="img/main/logo2.svg" class="logo2">
+            <h3 class="whiteh3">Afrianska</h3>
+            <table class="tableinfo">
+                <thead>
+                    <tr>
+                        <th class="thing">A.</th>
+                        <td class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                    </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <th class="thing">E</th>
+                    <td class="info">hello.afrian@gmail.com</td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <th class="thing">T.</th>
+                    <td class="info">+62-812-7313-4321</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="ss">
+                <thead>
+                    <tr>
+                        <th class="ab"> About Us</th>
+                      </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td class="sec"><a href="ContactUs.html" class="where">How It Work With Us</a></td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                    <td class="sec"><a href="homepage.html#main" class="where">About</a></td>
+                </tr>
+                  <tr>
+                    <td class="sec"><a href="homepage.html#what-we-doing" class="where">What We Do</a></td>
+                  </tr>
+                  <tr>
+                    <td class="sec"><a href="homepage.html#projects" class="where">Project</a></td>
+                  </tr>
+                </tbody>
+              </table>
+             
+              <table class="ss1">
+                <caption></caption>
+                <thead>
+                    <tr>
+                        <th class="ab">Follow Us</th>
+                      </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td class="sec"><a href="" class="where">Youtube</a></td>
+                  </tr>
+                </tfoot>
+                <tbody>  
+                    <tr>
+                    <td class="sec"><a href="" class="where">Instagram</a></td> 
+                </tr>                 
+                  <tr>
+                    <td class="sec"><a href="" class="where">Facebook</a></td>
+                  </tr>
+                  <tr>>
+                    <td class="sec"><a href="" class="where">LinkedIn</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <P class="credits">2019 © Afrianska. All rights reserved.</P>
+        </div>
+    </div>
+    </footer>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
